@@ -1,9 +1,11 @@
-// SINGLE LINE COMMENT 
-/* MULTI-LINE COMMENT */
+// This is a SINGLE LINE COMMENT (note)
 
-/* The JS code below is an example
-STATEMENT (instruction/command) 
-every statement ends in a SEMICOLON */
-console.log("hello world");
+/* This is a MULTI LINE COMMENT
+   Code below is an example JS STATEMENT
+   (instruction/command) 
+   Every statement ends in a SEMICOLON
+*/
+console.log("welcome to javascript!");
+
 
 
