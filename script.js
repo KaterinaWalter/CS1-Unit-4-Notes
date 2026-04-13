@@ -9,22 +9,22 @@ console.log("welcome to JS!");
 // VARIABLES are named storage containers for data
 
 // DECLARE a new variable (make space)
-let username; 
+let username;
 
-// ASSIGN a value to a variable
+// ASSIGN a value to an existing variable
 username = "ms.walter13";
 
-// see the value stored in a variable
-console.log(username);
-
-// DECLARE + ASSIGN in one line
+// DECLARE + ASSIGN a new variable in one line
 let pokemon = "pikachu";
-let luckyNum = 13; // no quotes around numbers!
 
-// look at our new variables
+// See the value of a variable
+console.log(username);
 console.log(pokemon);
+
+// Create a variable that holds a NUMBER
+let luckyNum = 13; // numbers don't need quotes!
 console.log(luckyNum);
 
-// Change the value stored in a var
-luckyNum = 15;
+// Change the value stored in a variable
+luckyNum = 7;
 console.log(luckyNum);
