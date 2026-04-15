@@ -24,7 +24,6 @@ console.log(pokemon);
 // Create a variable that holds a NUMBER
 let luckyNum = 13; // numbers don't need quotes!
 console.log(luckyNum);
-
-// Change the value stored in a variable
+// CHANGE the value stored in a variable (don't repeat LET)
 luckyNum = 7;
 console.log(luckyNum);
