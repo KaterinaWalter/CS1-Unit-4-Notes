@@ -49,3 +49,39 @@ console.log("My age is " + age);
 let user = "Ms. Walter";
 let message = "Welcome " + user + "!";
 console.log(message);
+
+/* FUNCTIONS:
+   Reusable sets of code statements
+   that perform a specific task or process
+*/ 
+
+// console.log is a FUNCTION that we've used
+console.log("I just used a function!");
+
+// DECLARE (create) your own function
+function skincare() {
+   // STATEMENTS (actions) to execute for this routine
+   console.log("1. Cleanse");
+   console.log("2. Apply toner");
+   console.log("3. Moisturize");
+}
+// CALL the function to use it!
+skincare();
+skincare(); // can run the function again
+
+// ANALOGY: Functions are like RECIPES
+// Ex. of a function that needs PARAMETERS (input/"ingredients") and RETURNS a new value (output/"meal")
+
+// if you need parameters, list some variables inside the parenthesis after the function name 
+function makeSando(filling, sauce, bread) {
+    let sando; // new variable to represent sandwich
+    sando = filling + " and " + sauce + " on " + bread;
+    return sando; // OUTPUT!
+}
+
+// must "pass in" actual arguments to use the function
+let mySando = makeSando("mozzarella", "pesto", "ciabatta");
+console.log(mySando);
+
+// shortcut to see return values
+console.log( makeSando("pb", "j", "bagel") );
