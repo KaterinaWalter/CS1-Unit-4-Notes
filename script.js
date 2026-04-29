@@ -85,3 +85,108 @@ console.log(mySando);
 
 // shortcut to see return values
 console.log( makeSando("pb", "j", "bagel") );
+
+
+
+
+
+
+/* FUNCTIONS:
+   Reusable sets of code statements
+   that perform a specific task/process/routine
+ */
+
+
+// console.log is a built-in FUNCTION we use
+console.log("We just used a function!");
+
+// DEFINE (create) your own function
+function getReady() {
+   // STATEMENTS (actions) to execute for this routine
+   console.log("1. wake up");
+   console.log("2. get dressed");
+   console.log("3. brush your teeth");
+}
+
+// CALL (use) a function
+getReady();
+getReady(); // can call it as many times as you want
+
+
+
+
+
+
+
+/* FUNCTIONS:
+   Reusable sets of code statements
+   that perform a specific task/process/routine
+*/
+
+// console.log is a built-in function we use
+console.log("I just used a function!");
+
+// DEFINE (create) your own function
+function prepareForSleep() {
+   // STATEMENTS (actions) to execute for this routine
+   console.log("1. Put on PJs");
+   console.log("2. Brush teeth");
+   console.log("3. Read on my kindle");
+}
+
+// CALL (use) our function
+prepareForSleep();
+prepareForSleep(); // can call it again!
+
+
+
+
+
+
+
+
+
+/* Selection/branching (CONDITIONALS) 
+   A BOOLEAN EXPRESSION is like a QUESTION
+   that has a boolean ANSWER (true/false)
+*/
+
+console.log(1 > 2); // false is the ANSWER
+console.log("Is 10 less than 5?");
+console.log(10 < 5); 
+
+// Check for EQUALITY using the == operator (or ===)
+console.log(1 == 1); // true!
+console.log(1 != 1); // false -> asking if NOT equal
+console.log("yes" == "yes"); // works for Strings!
+console.log("nick" != "duncan"); 
+
+// Strings can be compared too
+console.log("Ariankjfsdkfhes" > "Carolyn");
+console.log("Zebra" > "Dog"); // true, Z comes later than D
+console.log("Apple" < "Banana"); // true, A comes before B
+console.log("pelican" > "PELICAN"); // case matters!
+
+// Can use comparison operators btwn VARIABLES & values too
+let password = "abc123!";
+console.log("8rtueishf" == password);
+
+// IF STATEMENTS use conditionals/boolean expressions
+// to make DECISIONS about which code to execute (run)
+let userAge = 16;
+
+if (userAge >= 17) {
+   // code in the curly brackets only runs if TRUE!
+   console.log("you are old enough for a NY license");
+}
+
+// ELSE IF BLOCKs let you test multiple options
+else if (userAge == 16) {
+   console.log("you can get a learners permit!");
+}
+
+// ELSE BLOCK accounts for the "otherwise..." case
+else {
+   console.log("too young to drive");
+}
+
